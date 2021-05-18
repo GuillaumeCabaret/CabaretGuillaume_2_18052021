@@ -1,37 +1,234 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 body {
-  font-family: "Raleway", sans-serif;
-  max-width: 99%;
-  margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+    max-width: 2540px;
+    margin: 0 auto;
 }
+
+
 /* header */
+
 header,
 main {
-  padding: 0 20px 0 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 .accomodations,
 .activities {
-  padding: 20px;
-  margin-right: 15px;
-  text-decoration-line: none;
-  color: rgb(51, 47, 47);
+    padding: 30px;
+    margin-right: 15px;
+    text-decoration-line: none;
+    color: rgb(51, 47, 47);
+}
+
+
+/*Barre de recherche et filtres*/
+
+#search_bar {
+    display: flex;
+    padding-left: 20px;
+}
+
+#search_bar span i {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 17px;
+    background-color: #F2F2F2;
+}
+
+.field {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border: 2px solid #F2F2F2;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.searchbtn {
+    font-family: 'Raleway', sans-serif;
+    border: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    width: 120px;
+    cursor: pointer;
+}
+
+.search {
+    display: none;
+}
+
+#filters_bar {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+.filters_title h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categories h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.categories i {
+    background-color: #DEEBFF;
+}
+
+.eco_icon {
+    display: flex;
+    border: 15px solid #DEEBFF;
+    border-radius: 100px;
+    color: #0065FC;
+    position: relative;
+    right: 2px;
+}
+
+#economic {
+    width: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#economic:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.family_icon {
+    display: flex;
+    border: 15px solid #DEEBFF;
+    border-radius: 100px;
+    color: #0065FC;
+    position: relative;
+    right: 2px;
+}
+
+#family {
+    width: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 25px
+}
+
+#family:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.romantic_icon {
+    display: flex;
+    border: 15px solid #DEEBFF;
+    border-radius: 100px;
+    color: #0065FC;
+    position: relative;
+    right: 2px;
+}
+
+#romantic {
+    width: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 25px
+}
+
+#romantic:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.animals_icon {
+    display: flex;
+    border: 15px solid #DEEBFF;
+    border-radius: 100%;
+    color: #0065FC;
+    position: relative;
+    right: 2px;
+}
+
+#animals {
+    width: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+#animals:hover {
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.categories {
+    display: flex;
+    width: 100%;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border: 3px solid #F2F2F2;
+    background-color: white;
+    color: #0065FC;
+    border-radius: 100%;
+}
+
+#infos {
+    padding-left: 15px;
 }
