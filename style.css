@@ -333,3 +333,104 @@ nav li a:hover {
     border-radius: 25px;
     border: 5px solid white;
 }
+
+
+/* Section populaires */
+
+#search_results {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#popular {
+    width: 30%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-left: 20px;
+}
+
+.popular_title_icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.popular_title_icon i {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.popular_rooms {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popular_rooms img {
+    width: 125px;
+    height: 140px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 15px 0 0 15px;
+}
+
+.popular_rooms a {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    color: black;
+}
+
+.popular_rooms .text_stars {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text_stars h4 {
+    margin: 0 0 10px 0;
+}
+
+.text_stars p {
+    margin: 0;
+}
+
+.popular_rooms .stars {
+    color: #0065FC;
+}
+
+.popular_rooms .stars span {
+    color: #F2F2F2;
+}
+
+.soleil {
+    display: flex;
+    width: 80%;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.eau {
+    display: flex;
+    width: 80%;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.bleu_blanc {
+    display: flex;
+    width: 80%;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
