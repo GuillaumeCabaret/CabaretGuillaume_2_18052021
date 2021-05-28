@@ -435,3 +435,149 @@ nav li a:hover {
     border-radius: 20px;
     padding: 5px;
 }
+
+
+/*Section activités*/
+
+.title_activities {
+    margin-top: 60px;
+}
+
+.marseille_activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marseille_activities .vp {
+    text-decoration-line: none;
+    color: black;
+    width: 22%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.marseille_activities h4 {
+    padding-left: 10px;
+}
+
+.vieux_port img {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.pomegues_frioul {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pomegues_frioul .po {
+    width: 100%;
+    height: 55%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.pomegues {
+    height: 100%;
+}
+
+.pomegues_frioul .fri {
+    width: 100%;
+    height: 35%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.frioul {
+    height: 100%;
+}
+
+.pomegues img {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.frioul img {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.cal {
+    width: 22%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.calanques img {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.notredame_longchamp {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notredame_longchamp .nd {
+    width: 100%;
+    height: 55%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.notredame {
+    height: 100%;
+}
+
+.notredame_longchamp .lo {
+    width: 100%;
+    height: 35%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.longchamp {
+    height: 100%;
+}
+
+.notredame img {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.longchamp img {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
