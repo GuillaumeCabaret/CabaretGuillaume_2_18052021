@@ -581,3 +581,51 @@ nav li a:hover {
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.our_rooms ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.our_rooms ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.assistance ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.assistance ul li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+footer ul li {
+    padding-bottom: 10px;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 20px;
+}
