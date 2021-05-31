@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5da6fe0c36.js" crossorigin="anonymous"></script>
+    <title>Reservia</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div id="header">
+            <div id="logo">
+                <a href="index.html" class="logo"><img class="logo" src="../CabaretGuillaume_2_18052021/assets/images/logo/Reservia.svg" alt="Logo Reservia"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hebergements" class="accomodations">Hébergements</a></li>
+                    <li><a href="#activities" class="activities">Activités</a></li>
+                </ul>
+                <div id="register">
+                    <a href="#signIn" id="sign-in">S'inscrire</a>
+                </div>
+            </nav>
+        </div>
+        <h2 id="title1">Trouvez votre hébergement pour des vacances de rêve</h2>
+        <p class="lieu">En plein centre ville ou en pleine nature</p>
+    </header>
+    <!-- Search bar -->
+    <div id="Search-bar">
+        <div id="search_bar">
+            <span class="search-bar"><i class="fas fa-map-marker-alt"></i></span>
+            <input class="field" type="search" placeholder="Ville" value="Marseille, France" />
+            <input class="searchbtn" type="submit" value="Rechercher" />
+            <button class="search"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <section id="Filters">
+        <div id="filters_bar">
+            <div class="filters_title">
+                <h3>Filtres</h3>
+            </div>
+            <div class="categories">
+                <div id="economic">
+                    <div class="eco_icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Economique</h3>
+                </div>
+                <div id="family">
+                    <div class="family_icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Familial</h3>
+                </div>
+                <div id="romantic">
+                    <div class="romantic_icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Romantique</h3>
+                </div>
+                <div id="animals">
+                    <div class="animals_icon">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <h3>Animaux autorisés</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="infos">
+        <div class="icon-text">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </div>
+    <!-- Search results -->
+    <main id="search_results">
+        <!--Section Hébergements-->
+        <section id="hebergements">
+            <div class="title_rooms">
+                <h2>Hébergements à Marseille</h2>
+            </div>
+            <div id="rooms">
+                <a href="#">
+                    <div class="cannebiere">
+                        <figure>
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" />
+                            <figcaption>
+                                <h4>Auberge la Cannebière</h4>
+                                <p>Nuit à partir de <strong>25€</strong></p>
+                            </figcaption>
+                        </figure>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="grey_star"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="hotel-port">
+                        <figure>
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
+                            <figcaption>
+                                <h4>Hôtel du port</h4>
+                                <p>Nuit à partir de <strong>52€</strong></p>
+                            </figcaption>
+                        </figure>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="mouettes">
+                        <figure>
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />
+                            <figcaption>
+                                <h4>Hôtel Les mouettes</h4>
+                                <p>Nuit à partir de <strong>76€</strong></p>
+                            </figcaption>
+                        </figure>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="grey_star"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="mer">
+                        <figure>
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
+                            <figcaption>
+                                <h4>Hôtel de la mer</h4>
+                                <p>Nuit à partir de <strong>46€</strong></p>
+                            </figcaption>
+                        </figure>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="grey_star"><i class="fas fa-star"><i class="fas fa-star"></i></i></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="panier">
+                        <figure>
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
+                            <figcaption>
+                                <h4>Auberge Le Panier</h4>
+                                <p>Nuit à partir de <strong>23€</strong></p>
+                            </figcaption>
+                        </figure>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="grey_star"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="Amina">
+                        <figure>
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />
+                            <figcaption>
+                                <h4>Hôtel chez Amina</h4>
+                                <p>Nuit à partir de <strong>96€</strong></p>
+                            </figcaption>
+                        </figure>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="show_more">
+                <h4>Afficher plus</h4>
+            </div>
+        </section>
+        <!--Section populaires-->
+
+        <aside id="popular">
+            <div class="popular_title_icon">
+                <h2>Les plus populaires</h2>
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="popular_rooms">
+                <a href="#">
+                    <div class="soleil">
+                        <div class="picture">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" />
+                        </div>
+                        <div class="text_stars">
+                            <div class="text">
+                                <h4>Hôtel Le soleil du matin</h4>
+                                <p>Nuit à partir de <strong>128€</strong></p>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="eau">
+                        <div class="picture">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambre d'hôtes" />
+                        </div>
+                        <div class="text_stars">
+                            <div class="text">
+                                <h4>Au coeur de l'eau Chambre d'hôtes</h4>
+                                <p>Nuit à partir de <strong>71€</strong></p>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="grey_star"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="bleu_blanc">
+                        <div class="picture">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc" />
+                        </div>
+                        <div class="text_stars">
+                            <div class="text">
+                                <h4>Hôtel Tout bleu et Blanc</h4>
+                                <p>Nuit à partir de <strong>68€</strong></p>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="grey_star"><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </aside>
+        <!--Section activités à Marseille-->
+        <section id="activities">
+            <div class="title_activities">
+                <h2>Activités à Marseille</h2>
+            </div>
+            <div class="marseille_activities">
+                <a href="#" class="vp">
+                    <div class="vieux_port">
+                        <img src="../CabaretGuillaume_2_18052021/assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" />
+                        <h4>Vieux Port</h4>
+                    </div>
+                </a>
+                <div class="pomegues_frioul">
+                    <a href="#" class="po">
+                        <div class="pomegues">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" />
+                            <h4>Fort de Pomègues</h4>
+                        </div>
+                    </a>
+                    <a href="#" class="fri">
+                        <div class="frioul">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul" />
+                            <h4>Iles du Frioul</h4>
+                        </div>
+                    </a>
+                </div>
+                <a href="#" class="cal">
+                    <div class="calanques">
+                        <img src="../CabaretGuillaume_2_18052021/assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" />
+                        <h4>Parc National des Calanques</h4>
+                    </div>
+                </a>
+                <div class="notredame_longchamp">
+                    <a href="#" class="nd">
+                        <div class="notredame">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" />
+                            <h4>Notre-Dame-de-la-Garde</h4>
+                        </div>
+                    </a>
+                    <a href="#" class="lo">
+                        <div class="longchamp">
+                            <img src="../CabaretGuillaume_2_18052021/assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" />
+                            <h4>Parc Longchamp</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <div class="title">
+                    <h3>A propos</h3>
+                </div>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="our_rooms">
+                <div class="title">
+                    <h3>Nos hébergements</h3>
+                </div>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+            </div>
+            <div class="assistance">
+                <div class="title">
+                    <h3>Assistance</h3>
+                </div>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
