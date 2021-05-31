@@ -749,7 +749,7 @@ footer ul li {
         padding-left: 10px;
     }
     #popular {
-        width: 100%;
+        width: 120%;
         display: flex;
         flex-wrap: wrap;
         order: -1;
@@ -769,10 +769,13 @@ footer ul li {
         width: 100%;
         margin-bottom: 15px;
     }
-    .soleil_matin {
+    .soleil {
         width: 85%;
     }
-    .coeur_eau {
+    .eau {
+        width: 85%;
+    }
+    .bleu_blanc {
         width: 85%;
     }
     #hebergements {
@@ -866,9 +869,183 @@ footer ul li {
     }
     footer {
         margin-top: 40px;
+        width: 120%;
     }
     .footer {
         display: block;
         margin-left: 20px;
+    }
+}
+
+
+/* Règles applicables pour un écran d'une largeur allant de 561 pixels à 1126 pixels */
+
+@media screen and (min-width: 561px) and (max-width: 1126px) {
+    body {
+        margin: 0;
+    }
+    header {
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    main {
+        padding: 0;
+    }
+    #Search-bar,
+    #Filters,
+    #infos {
+        padding-left: 0;
+    }
+    nav ul {
+        padding-left: 0;
+    }
+    .rooms,
+    .activities {
+        padding: 10px;
+    }
+    #sign-in {
+        padding: 10px;
+    }
+    #search_bar {
+        padding-left: 20px;
+    }
+    #infos {
+        padding-left: 20px;
+    }
+    #filters_bar {
+        display: block;
+    }
+    .filters_title {
+        margin: 0 0 20px 25px;
+    }
+    .categories {
+        display: block;
+    }
+    #economic {
+        width: 200px;
+        margin: 0 0 15px 25px;
+    }
+    #family {
+        width: 150px;
+        margin: 0 0 15px 25px;
+    }
+    #romantic {
+        width: 190px;
+        margin: 0 0 15px 25px;
+    }
+    #animals {
+        width: 250px;
+        margin: 0 0 15px 25px;
+    }
+    #hebergements {
+        width: 100%;
+        background-color: #F2F2F2;
+        margin-bottom: 40px;
+        border-radius: 0;
+    }
+    #rooms {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-size: 0.85em;
+    }
+    #rooms a {
+        width: 35%;
+        text-decoration-line: none;
+        color: black;
+    }
+    #rooms img {
+        height: 15vw;
+    }
+    #hebergements .show_more {
+        padding: 0 0 0 20px;
+    }
+    #popular {
+        width: 100%;
+        background-color: #F2F2F2;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    .popular_title_icon {
+        display: flex;
+        justify-content: space-between;
+    }
+    .popular_title_icon h2 {
+        margin-left: 20px;
+    }
+    .popular_title_icon i {
+        margin-right: 20px;
+    }
+    .popular_rooms a {
+        margin-bottom: 50px;
+    }
+    .soleil {
+        display: block;
+        width: 95%;
+    }
+    .eau {
+        display: block;
+        width: 95%;
+    }
+    .bleu_blanc {
+        display: block;
+        width: 95%;
+    }
+    .popular_rooms img {
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+        display: flex;
+        border-radius: 15px 15px 0 0;
+    }
+    .popular_rooms .text_stars {
+        font-size: 1.3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    #activities {
+        width: 100%;
+    }
+    .title_activities {
+        padding-left: 20px;
+    }
+    .marseille_activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .marseille_activities img {
+        height: 35vw;
+    }
+    .marseille_activities .vp {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .pomegues_frioul {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .po {
+        margin-bottom: 20px;
+    }
+    .cal {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .notredame_longchamp {
+        width: 95%;
+    }
+    .nd {
+        margin-bottom: 20px;
+    }
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85em;
+        padding: 0 15px 0 15px;
     }
 }
