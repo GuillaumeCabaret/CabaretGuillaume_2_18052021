@@ -749,7 +749,7 @@ footer ul li {
         padding-left: 10px;
     }
     #popular {
-        width: 120%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         order: -1;
@@ -833,7 +833,7 @@ footer ul li {
     }
     .marseille_activities {
         flex-direction: column;
-        height: 120%;
+        height: 100%;
         align-items: center;
     }
     .title_activities {
@@ -869,7 +869,7 @@ footer ul li {
     }
     footer {
         margin-top: 40px;
-        width: 120%;
+        width: 100%;
     }
     .footer {
         display: block;
