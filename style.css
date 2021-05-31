@@ -1,8 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/* Polices */
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../CabaretGuillaume_2_18052021/assets/raleway/static/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url("../CabaretGuillaume_2_18052021/assets/raleway/static/Raleway-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("../CabaretGuillaume_2_18052021/assets/raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url("../CabaretGuillaume_2_18052021/assets/raleway/static/Raleway-ExtraBold.ttf");
+}
+
 body {
-    font-family: "Raleway", sans-serif;
     max-width: 2540px;
+    font-family: "Raleway";
     margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Raleway-ExtraBold';
 }
 
 
@@ -23,7 +51,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
 }
 
 nav ul {
@@ -40,6 +67,7 @@ nav li a:hover {
 #sign-in {
     color: #0065FC;
     text-decoration: none;
+    font-family: "Raleway-ExtraBold";
 }
 
 .accomodations,
@@ -55,7 +83,7 @@ nav li a:hover {
 
 #search_bar {
     display: flex;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 #search_bar span i {
@@ -66,10 +94,9 @@ nav li a:hover {
 }
 
 .field {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway-ExtraBold';
     padding: 10px;
     border: 2px solid #F2F2F2;
-    font-weight: bold;
     font-size: 1.1em;
 }
 
@@ -80,7 +107,6 @@ nav li a:hover {
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    font-weight: bold;
     font-size: 0.9em;
     width: 120px;
     cursor: pointer;
@@ -219,16 +245,16 @@ nav li a:hover {
 
 .icon-text {
     display: flex;
-    align-items: center;
+    margin-top: 25px;
 }
 
 .icon-text i {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
     border: 3px solid #F2F2F2;
     background-color: white;
     color: #0065FC;
@@ -237,6 +263,10 @@ nav li a:hover {
 
 #infos {
     padding-left: 15px;
+}
+
+.city_info {
+    margin-top: 5px;
 }
 
 #hebergements {
@@ -292,7 +322,6 @@ nav li a:hover {
 
 #hebergements .show_more {
     padding: 0 0 10px 20px;
-    font-weight: bold;
 }
 
 .cannebiere {
@@ -643,7 +672,7 @@ footer ul li {
     body {
         margin: 0;
     }
-    #Reservia {
+    #header {
         display: block;
     }
     header,
@@ -663,16 +692,20 @@ footer ul li {
         padding: 20px 0 20px 0;
         width: 100%;
         justify-content: space-around;
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 4px solid #F2F2F2;
     }
     nav li a:hover {
         color: #0065FC;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 4px solid #0065FC;
         border-top: none;
     }
-    #inscription {
+    .accomodations,
+    .activities {
+        padding: 20px;
+    }
+    #register {
         position: absolute;
-        top: 39px;
+        top: 15px;
         right: 10px;
     }
     #sign-in {
@@ -689,12 +722,11 @@ footer ul li {
     }
     #search_bar {
         display: flex;
-        justify-content: center;
     }
-    .button {
+    .searchbtn {
         display: none;
     }
-    .loupe {
+    .search {
         display: flex;
         border-radius: 15px;
         border: 1px;
@@ -709,15 +741,17 @@ footer ul li {
         border-radius: 14px;
         font-size: 17px;
     }
-    .champ {
+    .field {
         border-right: 0;
         font-size: 1em;
+        width: 70%;
     }
     #Filters {
-        padding-left: 10px;
+        padding: 20px 0px 0px 15px;
     }
     #filters_bar {
         flex-wrap: wrap;
+        display: contents;
     }
     .filters_title {
         margin-bottom: 20px;
@@ -746,7 +780,7 @@ footer ul li {
         flex-direction: column;
     }
     #infos {
-        padding-left: 10px;
+        padding-left: 15px;
     }
     #popular {
         width: 100%;
@@ -789,11 +823,11 @@ footer ul li {
         font-size: 1.3em;
         margin: 25px 0 20px 0;
     }
-    #rooms {
+    #hebergements {
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    #rooms a {
+    #hebergements a {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -899,7 +933,7 @@ footer ul li {
     nav ul {
         padding-left: 0;
     }
-    .rooms,
+    .accomodations,
     .activities {
         padding: 10px;
     }
@@ -910,7 +944,7 @@ footer ul li {
         padding-left: 20px;
     }
     #infos {
-        padding-left: 20px;
+        padding-left: 15px;
     }
     #filters_bar {
         display: block;
